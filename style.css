@@ -1,0 +1,185 @@
+body{
+    margin: 0px;
+    padding: 0;
+}
+.head{
+    background-color: #4385c1;
+    padding-bottom: 3%;
+}
+#nav-link{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+li{
+    display: inline;
+    list-style-type: none;
+    border-right: 1px solid white;
+    padding: 10px;
+}
+a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#circle-heading{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+#circle-heading1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -40px;
+    color: #69a9e6;
+}
+#circle-btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -70px;
+}
+button{
+    background-color: #4385c1;
+    color: white;
+    border: 1px solid#8db3d6;
+    padding: 20px 50px 20px 50px;
+    outline: none;
+    border-radius: 10px;
+    margin: 20px;
+}
+#second-section{
+    background-color: #043867;
+    margin-top: -20px;
+    padding: 30px;
+}
+.second-section-text{
+    display: inline;
+    margin-left: 80px;
+    color: #69a9e6;
+    font-size: 20px;
+}
+.active, .second-section-text:hover {
+    background-color:rgb(4, 4, 100);
+    color: white;
+}
+.academic-text{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    color: gray;
+}
+#make-your-move{
+    background-color: #7aa120;
+    padding: 80px;
+}
+.make-your-move-text{
+    margin-left: 60px;
+    color: white;
+}
+.undergraduate{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.sub-undergraduate{
+    margin: 20px;
+    background-color: #e7ecf0;
+    width: 60%;
+    height: 50vh;
+    padding: 20px;
+}
+.undergraduate-text{
+    margin-top: 20%;
+    margin-left: 40px;
+    color:#286cb9;
+    font-size: 30px;
+}
+.undergraduate-para{
+    margin-left: 40px;
+    color: gray;
+    font-size: 25px;
+}
+.sub-undergraduate1 h1{
+    color: white;
+}
+.sub-undergraduate1{
+    margin: 20px;
+    background-color: #e7ecf0;
+    width: 60%;
+    height: 50vh;
+    padding: 20px;
+}
+.sub-undergraduate1:nth-child(1){
+    background: #620e6e;
+}
+.sub-undergraduate1:nth-child(2){
+    background: #4385c1;
+}
+.sub-undergraduate1:nth-child(3){
+    background: #ffffff;
+}
+#event-date{
+    display: flex;
+    flex-direction: row;
+    margin-left: -26px;
+}
+#event{
+    margin-left: -12px;
+}
+.upcoming-date1{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    border: 1px solid rgb(189, 183, 183);
+    color: green;
+    padding: 10px;
+    margin: 10px;
+    font-size: 40px;
+}
+.upcoming-detail1{
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+    padding: 10px;
+    margin: 24px 15px 24px 25px;
+    font-size: 20px;
+    color: #5b8aba;
+}
+.four-btn1{
+    background-color: #ffffff;
+    color: #5b8aba;
+    margin: 40px;
+    padding:  20px 70px;
+    text-transform: uppercase;
+    font-family: 'Heebo', sans-serif;
+}
+#footer-item{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.footer-item1{
+    margin-left: 65px;
+    color: white;
+}
+#five-item{
+    margin-left: 170px;
+
+}
+.anchor{
+    display: block;
+    color: gray;
+}
+.anchor:hover{
+    color: rgb(182, 176, 176);
+}
+#footer-end{
+    color: #ffffff;
+    margin-left: 40%;
+}
+
+
+
